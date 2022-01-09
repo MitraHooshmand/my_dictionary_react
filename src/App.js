@@ -6,6 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         hello word
+       <br/>
+       <button type="button" class="btn btn-primary">Primary</button>
+          
+     
       </header>
     </div>
   );
