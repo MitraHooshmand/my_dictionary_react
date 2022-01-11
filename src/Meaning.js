@@ -12,10 +12,10 @@ export default function Meaning(param) {
               <p>
                 {" "}
                 <strong>Def: </strong>
-                {definition.definition}
+                 {definition.definition}
                 <br />
                 <em>
-                  <strong>Exam: </strong>
+                <strong>Exam: </strong>
                   {definition.example}
                 </em>
                 <br />
