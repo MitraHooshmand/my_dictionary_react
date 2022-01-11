@@ -1,4 +1,5 @@
 import React from "react";
+import Synonym from "./Synonym";
 
 export default function Meaning(param) {
   if (param.meaning) {
@@ -10,11 +11,18 @@ export default function Meaning(param) {
             <div key={index}>
               <p>
                 {" "}
+                <strong>Def: </strong>
                 {definition.definition}
                 <br />
-                <em>__ {definition.example}</em>
+                <em>
+                  <strong>Exam: </strong>
+                  {definition.example}
+                </em>
                 <br />
-                ** {definition.synonyms[0]}
+                <strong>Syn: </strong>
+                <small>
+                  <Synonym synonym={definition.synonyms} />
+                </small>
               </p>
             </div>
           );

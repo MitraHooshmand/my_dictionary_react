@@ -8,7 +8,7 @@ export default function Result(param){
         <h2>{param.result.word}</h2>
         {param.result.meanings.map(function (meaning, index) {
             return (<div key={index}>
-                <Meaning meaning={meaning}/>
+                 <Meaning meaning={meaning}/>
             </div>);
         //   return meaning.definitions[0].definition; 
         })}
