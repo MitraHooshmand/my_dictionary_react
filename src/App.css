@@ -1,7 +1,18 @@
-.App{
-margin: 20px;
+body {
+  background: #f9f7fe;
+  /* #FFF9F9; */
+  /* #F9F7FE; */
 }
-.App-footer{
+a {
+  color: #774dca;
+}
+.App {
+  margin: 20px;
+}
+.App-header {
+  margin: 30px 0;
+}
+.App-footer {
   text-align: center;
   margin: 30px 0;
 }

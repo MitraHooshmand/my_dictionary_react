@@ -1,19 +1,20 @@
 import React from "react";
+import "./Synonym.css";
 
 export default function Synonym(param) {
   if (param.synonym) {
     return (
-      <div className="Synonym">
+      <ul className="Synonym">
         {param.synonym.map(function (synonym, index) {
           return (
-            <span key={index}>
-              {" "}
+            <li key={index}>
+           
               {synonym}
-              {" , "}
-            </span>
+              
+            </li>
           );
         })}
-      </div>
+      </ul>
     );
   } else {
     return null;

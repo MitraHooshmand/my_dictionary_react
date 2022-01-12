@@ -7,12 +7,10 @@ function App() {
         {/* <header className="App-header"> */}
         {/* </header> */}
         <main>
-          <Dictionary />
+          <Dictionary defultKeyword="Sunset" />
         </main>
         <footer className="App-footer">
-          <small>
-            Coded by Mita :)
-          </small>
+          <small>Coded by Mita :)</small>
         </footer>
       </div>
     </div>
