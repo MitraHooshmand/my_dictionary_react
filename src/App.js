@@ -10,7 +10,13 @@ function App() {
           <Dictionary defultKeyword="Sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Mita :)</small>
+          <small>
+            Coded by{" "}
+            <a href="https://github.com/mita4824/my_dictionary_react">
+              {" "}
+              Mita hsh :)
+            </a>
+          </small>
         </footer>
       </div>
     </div>
